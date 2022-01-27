@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-1&f2-ju*8-8z38*s-8#7a9-&ae-%4$rx!iuxrc6+=euw$13zi)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['underrated-songs.herokuapp.com', 'localhost']
 
 
 # Application definition
