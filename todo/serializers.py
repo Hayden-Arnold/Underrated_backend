@@ -8,8 +8,7 @@ class ArtistSerializer(serializers.ModelSerializer):
     model = Artist
     fields = ['name', 'songs']
 
-class SongSerializer(serializers.ModelSerializer):
-  artist = serializers.HyperlinkedRelatedField(view_name='artist-detail', read_only=True)
+class SongSerializer(serializers.HyperlinkedModelSerializer):
 
   class Meta:
     model = Song
