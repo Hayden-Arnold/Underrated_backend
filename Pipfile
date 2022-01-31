@@ -12,6 +12,7 @@ whitenoise = "*"
 dj-database-url = "*"
 gunicorn = "*"
 python-dotenv = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
